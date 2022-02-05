@@ -1,0 +1,43 @@
+<template>
+  <div class="nav-bar">
+    <div class="left"><slot name="left"></slot></div>
+    <div class="center"><slot name="center"></slot></div>
+    <div class="right"><slot name="right"></slot></div>
+  </div>
+</template>
+
+<script>
+export default {
+  name: "WorkspaceJsonNavbar",
+
+  data() {
+    return {};
+  },
+
+  mounted() {},
+
+  methods: {},
+};
+</script>
+
+<style  scoped>
+.nav-bar {
+  display: flex;
+  line-height: 44px;
+  height: 44px;
+  text-align: center;
+  box-shadow: 0 1px 1px rgba(100, 100, 100, 0.2);
+}
+.left,
+.right {
+  width: 60px;
+  /* background-color: red; */
+}
+.center {
+  flex: 1;
+  font-weight: bold;
+  /* background-color: blue; */
+  text-align: center;
+  /* font-size: 200%; */
+}
+</style>
