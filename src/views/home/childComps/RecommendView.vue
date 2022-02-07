@@ -35,6 +35,7 @@ export default {
   display: flex;
   margin-top: 10px;
   font-size: 14px;
+
   padding-bottom: 30px;
   border-bottom: 10px solid #eee;
 }
@@ -42,6 +43,7 @@ export default {
 .recommend-item {
   flex: 1;
   text-align: center;
+
   /* margin-left: 8px; */
 }
 
